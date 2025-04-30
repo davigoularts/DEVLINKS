@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/Background@2x.png);
+  --bg-url: url(./assets/Background-mobile.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.055);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/Background.png);
+  --bg-url: url(./assets/Background-light-mobile.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -33,6 +33,7 @@ body {
   */
   /*background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -168,6 +169,17 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/Background-desktop.png);
+  }
+
+  .light {
+    --bg-url: url(./assets/Background-light-desktop.png);
+  }
 }
 
 /*animation*/
