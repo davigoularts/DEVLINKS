@@ -1,4 +1,4 @@
-<h1 align="center"> DevLiks </h1>
+<h1 align="center"> DevLinks </h1>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-DevLinks é um agregador de liks para usar como cartão de visitas online.
+DevLinks é um agregador de links para usar como cartão de visitas online.
 
 ## 🔖 Layout
 
